@@ -19,14 +19,47 @@
  @import "bootstrap";
 
 
+ /****** 主页 ******/
+ .jumbotron {
+    background-color: #f4511e;
+    color: #fff;
+    padding: 100px 25px;
+    border-radius: 0 important ;
+}
+.container-fluid {
+    padding: 50px 40px;
+}
+.logo {
+    color: #f4511e;
+    font-size: 200px;
+}
+@media screen and (max-width: 768px) {
+  .col-sm-4 {
+    text-align: center;
+    margin: 25px 0;
+  }
+}
+
+.thumbnail {
+    padding: 0 0 15px 0;
+    border: none;
+    border-radius: 0;
+}
+.thumbnail img {
+
+    margin-bottom: 10px;
+}
+
+.bg-grey {
+    background-color: #f6f6f6;
+}
+
  /****** 管理员工作版面******/
  .custab{
    border: 1px solid #ccc;   //admin／jobs/index.边框
-
    padding: 5px;
    margin: 5% 0;
    box-shadow: 3px 3px 2px #ccc;
-
    transition: 0.5s;
  }
 
@@ -36,11 +69,10 @@
  }
 
  /****** 导航栏 ******/
-
  .navbar-default {
     background-color: #f4511e;  //导航栏背景颜色
     border-color: #f4511e; //边框色
-   margin-bottom: 10px; //底部 margin 不撑开距离
+   margin-bottom: 0px; //底部 margin 不撑开距离
  }
 
   @media (min-width: 768px) {
@@ -48,6 +80,7 @@
      border-radius: 0; //导航栏圆角为0
    }
  }
+
  /****** 导航栏字体 ******/
   .navbar-default .navbar-brand {
     color: #E0F7FA; //字体颜色
