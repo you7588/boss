@@ -2,12 +2,19 @@
     <div class="container-fluid">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+              <span class="icon-bar"></span>
+          </button>
             <a class="navbar-brand" href="/"><img src='<%= image_url 'puzzle.png' %>' >Big Boss</a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
             <ul class="nav navbar-nav navbar-right">
+                      <li><a href="#"><span class="glyphicon glyphicon-search"></span></a></li>
+              <li><a href="#myPage">关于我们</a></li>
+
                 <% if !current_user %>
                 <li><a href="#" data-toggle="modal" data-target="#signup-modal">sign up</a></li>
                 <li><a href="#" data-toggle="modal" data-target="#login-modal">log in</a></li>
