@@ -24,22 +24,25 @@
  .jumbotron {
     background-color: #f4511e;
     color: #fff;
-    padding: 100px 25px;
-    border-radius: 0 important ;
+    padding: 100px 120px;
+    border-radius: 0 !important;
 }
-.container-fluid {
-    // padding: 50px 40px;
+.container {
+    padding: 80px 20px;
 }
+
 .logo {
     color: #f4511e;
     font-size: 200px;
 }
+
 @media screen and (max-width: 768px) {
   .col-sm-4 {
     text-align: center;
     margin: 25px 0;
   }
 }
+
 
 .thumbnail {
     padding: 0 0 15px 0;
@@ -55,6 +58,9 @@
     margin: 0 auto;
     padding: 20px;
 }
+
+
+
 
  /****** 管理员工作版面******/
  .custab{
