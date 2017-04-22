@@ -17,6 +17,7 @@
 
  @import "bootstrap-sprockets";
  @import "bootstrap";
+ @import "welcome";
 
 
  /****** 主页 ******/
@@ -27,7 +28,7 @@
     border-radius: 0 important ;
 }
 .container-fluid {
-    padding: 50px 40px;
+    // padding: 50px 40px;
 }
 .logo {
     color: #f4511e;
@@ -46,12 +47,13 @@
     border-radius: 0;
 }
 .thumbnail img {
-
     margin-bottom: 10px;
 }
 
 .bg-grey {
     background-color: #f6f6f6;
+    margin: 0 auto;
+    padding: 20px;
 }
 
  /****** 管理员工作版面******/
