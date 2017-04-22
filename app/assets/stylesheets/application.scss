@@ -34,7 +34,23 @@
   margin-right: -15px;
 }
 
+.season-5 {
+  background-color: #ffffff;
+  width: 100%;
+  font-family: PingFangSC-Medium;
+}
+
+.header {
+  background-color: #EBEBED;
+}
+
+.season-3 .season-3-block1 {
+  background-color: #EBEBED;
+}
+
  .jumbotron {
+   background-image:url('http://ww2.sinaimg.cn/large/006tNc79gy1fevu6r7udej31kw0uyq9w.jpg');
+
     background-color: #f4511e;
     color: #fff;
     padding: 100px 120px;
@@ -44,13 +60,6 @@
 .logo {
     color: #f4511e;
     font-size: 200px;
-}
-
-@media screen and (max-width: 768px) {
-  .col-sm-4 {
-    text-align: center;
-    margin: 25px 0;
-  }
 }
 
 
