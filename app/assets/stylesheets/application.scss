@@ -18,8 +18,10 @@
  @import "bootstrap-sprockets";
  @import "bootstrap";
 
+
+ /****** 管理员工作版面******/
  .custab{
-   border: 1px solid #ccc;
+   border: 1px solid #ccc;   //admin／jobs/index.边框
 
    padding: 5px;
    margin: 5% 0;
@@ -29,9 +31,65 @@
  }
 
  .custab:hover{
-   box-shadow: 3px 3px 0px transparent;
+   box-shadow: 3px 3px 0px transparent;   //admin／jobs/index.边框
    transition: 0.5s;
  }
+
+ /****** 导航栏 ******/
+
+ .navbar-default {
+    background-color: #f4511e;  //导航栏背景颜色
+    border-color: #f4511e; //边框色
+   margin-bottom: 10px; //底部 margin 不撑开距离
+ }
+
+  @media (min-width: 768px) {
+   .navbar {
+     border-radius: 0; //导航栏圆角为0
+   }
+ }
+ /****** 导航栏字体 ******/
+  .navbar-default .navbar-brand {
+    color: #E0F7FA; //字体颜色
+    padding: 10px 15px; //上下10px，左右15px
+    line-height: 30px; //文字行高
+  }
+
+  .navbar-default .navbar-brand:hover,
+  .navbar-default .navbar-brand:focus {
+    color: #FFFDE7; //鼠标放置在链接上的文字颜色
+    background-color: transparent; //鼠标放置在链接上的背景颜色，这里设为透明
+  }
+
+   .navbar-default .navbar-nav > li > a{
+     color: #E0F7FA;
+   }
+   .navbar-default .navbar-nav > li > a:hover,
+   .navbar-default .navbar-nav > li > a:focus {
+     color: #FFFDE7;
+     background-color: transparent;
+   }
+
+   .navbar-default .navbar-nav > .active > a,
+   .navbar-default .navbar-nav > .active > a:hover,
+   .navbar-default .navbar-nav > .active > a:focus {
+     color: #F4511E;
+     background-color: #E0F7FA;
+
+   }
+   .navbar-default .navbar-nav > .open > a,
+   .navbar-default .navbar-nav > .open > a:focus,
+   .navbar-default .navbar-nav > .open > a:hover {
+     background-color: #FF9E80;
+     color: #f4511e;
+   }
+
+   .navbar-brand > img {
+        display: inline-block; //图片和链接文字显示在同一行
+        margin-right: 10px; //图片和链接文字拉开一点距离
+        width: 24px; //定制图片宽度
+        height: 24px; //定制图片高度
+    }
 
  /****** LOGIN MODAL ******/
  .loginmodal-container {
