@@ -45,14 +45,17 @@
    width: 100%;
 }
 
-.search {
-  padding-left: 200px;
-  padding-right: 200px;
-}
-.search {
-  position: relative;
-  top: -100px;
-}
+ .search {
+   position: relative;
+   top: -80px;
+ }
+
+
+
+
+
+
+
 
 .logo {
     color: #f4511e;
@@ -69,25 +72,25 @@
 }
 
 .bg-grey {
-    background-color: #f6f6f6;
     margin: 0 auto;
     padding: 70px 30px;
+    background-image:url('http://ww2.sinaimg.cn/large/006tKfTcgy1fewtxpgbe0j31kw1qugpi.jpg');
 }
 
 
-/***** 主页timeline *****/
-.timeline {
-  padding-left: 150px;
-  padding-right: 150px;
-  padding-top: 40px;
-  padding-bottom: 50px;
+/***** 主页level *****/
+.story {
+  padding: 40px 100px 50px;
 }
+
+.story-item {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
 
 /***** 主页service *****/
-.service {
-  padding-top: 40px;
-  padding-bottom: 50px;
-}
+
 
 
 
