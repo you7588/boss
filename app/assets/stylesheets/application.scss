@@ -26,23 +26,32 @@
   width: 100%;
 }
 
-.season .season-block1 {
+.season .season-block1, .season .season-block2 {
   padding-left: 30px;
   padding-right: 30px;
   margin: 0 auto;
 }
 
 @media (min-width: 768px) {
- .season-block1 {
+ .season-block1, .footer .season-block2 {
    max-width: 1240px;
  }
 }
 
- .season .liang-img {
+ .season-block1 .liang-img,  .footer .season-block2 .liang-img {
    background-size: cover;
    background-repeat: no-repeat;
    border-radius: 0 !important;
    width: 100%;
+}
+
+.search {
+  padding-left: 200px;
+  padding-right: 200px;
+}
+.search {
+  position: relative;
+  top: -100px;
 }
 
 .logo {
@@ -231,4 +240,20 @@
 
  .login-help{
    font-size: 12px;
+ }
+
+
+
+
+ /****** footer ******/
+ .footer-default {
+    background-color: #f4511e;  //导航栏背景颜色
+    border-color: #f4511e; //边框色
+    margin-bottom: 0px; //底部 margin 不撑开距离
+ }
+
+  @media (min-width: 768px) {
+   .navbar {
+     border-radius: 0; //导航栏圆角为0
+   }
  }
