@@ -10,11 +10,15 @@
     </head>
 
     <body>
-      <div id="big-boss">
-            <%= render "common/navbar" %>
-            <%= render "common/flashes" %>
-            <%= yield %>
-        <%= render "common/footer" %>
+      <div class="container-fluid">
+        <div class="row">
+          <%= render "common/navbar" %>
+        </div>
+        <%= render "common/flashes" %>
+        <%= yield %>
       </div>
+
+        <%= render "common/footer" %>
+
     </body>
 </html>

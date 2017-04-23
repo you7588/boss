@@ -21,49 +21,29 @@
 
 
  /****** 主页 ******/
-
-.container-fluid {
-  margin-right: auto; // 主页整体
-  margin-left: auto;
-  padding-left: 15px;
-  padding-right: 15px;
-}
-
-.row {
-  margin-left: -15px;
-  margin-right: -15px;
-}
-
-.season .footer, .season .header {
-  background-color: #EBEBED;
+.footer,.header {
+  background-color: #F6F6F6;
   width: 100%;
 }
 
 .season .season-block1 {
-  background-color: #EBEBED;
-  max-width: 100%;
   padding-left: 30px;
   padding-right: 30px;
+  margin: 0 auto;
 }
 
- .jumbotron {
-   background-image:url('http://ww2.sinaimg.cn/large/006tNc79gy1fevu6r7udej31kw0uyq9w.jpg');
+@media (min-width: 768px) {
+ .season-block1 {
+   max-width: 1240px;
+ }
+}
+
+ .season .liang-img {
+   background-size: cover;
    background-repeat: no-repeat;
-   background-size: 100%;
    border-radius: 0 !important;
-
+   width: 100%;
 }
-
-.season .season-block1 .text {
-    padding-top: 145px;
-    padding-bottom: 80px;
-    color: #f4511e;
-    width: auto;
-    max-width: 690px;
-    box-sizing: border-box;
-    text-align: left;
-    padding-left: 50px;
-  }
 
 .logo {
     color: #f4511e;
@@ -82,7 +62,7 @@
 .bg-grey {
     background-color: #f6f6f6;
     margin: 0 auto;
-    padding: 20px;
+    // padding: 20px;
 }
 
 
