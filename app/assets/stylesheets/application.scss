@@ -21,9 +21,8 @@
 
 
  /****** 主页 header******/
-.footer,.header {
-  background-color: #F6F6F6;
-  width: 100%;
+.season {
+    background-color: #F6F6F6;
 }
 
 .season .season-block1, .season .season-block2 {
@@ -65,22 +64,26 @@
     margin-bottom: 10px;
 }
 
+
+
+/***** 主页about *****/
+.about {
+  padding: 50px 50px;
+  background: #fff;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+  border-radius: 10px;
+  
+}
+
+
+/***** 主页level *****/
 .bg-grey {
-    background-color: #F6F6F6;
     margin: 0 auto;
     padding: 70px 30px;
 }
 
-/***** 主页about *****/
-.about {
-  padding: 70px 50px;
-}
-
-
-
-/***** 主页level *****/
 .story {
-  padding: 40px 100px 50px;
+  padding: 50px 40px 50px;
 }
 
 .story-item {
@@ -88,16 +91,13 @@
   padding-bottom: 20px;
 }
 
-
 /***** 主页service *****/
-
 .service {
   padding: 70px 50px;
+  background: #fff;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+  border-radius: 10px;
 }
-
-
-
-
 
  /****** 管理员工作版面******/
  .custab{
@@ -264,18 +264,8 @@
    font-size: 12px;
  }
 
-
-
-
  /****** footer ******/
  .footer-default {
-    background-color: #f4511e;  //导航栏背景颜色
-    border-color: #f4511e; //边框色
+    background-color: #F6F6F6;  //导航栏背景颜色
     margin-bottom: 0px; //底部 margin 不撑开距离
- }
-
-  @media (min-width: 768px) {
-   .navbar {
-     border-radius: 0; //导航栏圆角为0
-   }
  }
