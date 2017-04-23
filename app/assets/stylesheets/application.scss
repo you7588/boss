@@ -20,7 +20,7 @@
  @import "welcome";
 
 
- /****** 主页 ******/
+ /****** 主页 header******/
 .footer,.header {
   background-color: #F6F6F6;
   width: 100%;
@@ -71,8 +71,25 @@
 .bg-grey {
     background-color: #f6f6f6;
     margin: 0 auto;
-    // padding: 20px;
+    padding: 70px 30px;
 }
+
+
+/***** 主页timeline *****/
+.timeline {
+  padding-left: 150px;
+  padding-right: 150px;
+  padding-top: 40px;
+  padding-bottom: 50px;
+}
+
+/***** 主页service *****/
+.service {
+  padding-top: 40px;
+  padding-bottom: 50px;
+}
+
+
 
 
 
