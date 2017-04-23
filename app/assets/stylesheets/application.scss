@@ -51,12 +51,6 @@
  }
 
 
-
-
-
-
-
-
 .logo {
     color: #f4511e;
     font-size: 200px;
@@ -72,10 +66,16 @@
 }
 
 .bg-grey {
+    background-color: #F6F6F6;
     margin: 0 auto;
     padding: 70px 30px;
-    background-image:url('http://ww2.sinaimg.cn/large/006tKfTcgy1fewtxpgbe0j31kw1qugpi.jpg');
 }
+
+/***** 主页about *****/
+.about {
+  padding: 70px 50px;
+}
+
 
 
 /***** 主页level *****/
@@ -91,7 +91,9 @@
 
 /***** 主页service *****/
 
-
+.service {
+  padding: 70px 50px;
+}
 
 
 
