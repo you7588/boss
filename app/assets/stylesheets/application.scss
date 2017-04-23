@@ -46,7 +46,24 @@
 
  .search {
    position: relative;
-   top: -80px;
+   top: -90px;
+ }
+
+ @media (min-width: 76px) {
+  .search {
+    max-width: 1240px;
+    padding-left: 30%;
+    padding-right: 30%;
+    margin: 0 auto;
+  }
+ }
+ @media (max-width: 400px) {
+  .search {
+    max-width: 80px;
+    padding-left: 40%;
+    padding-right: 40%;
+    margin: 0 auto;
+  }
  }
 
 
@@ -65,14 +82,13 @@
 }
 
 
-
 /***** 主页about *****/
 .about {
   padding: 50px 50px;
   background: #fff;
   box-shadow: 0 2px 4px rgba(0,0,0,0.3);
   border-radius: 10px;
-  
+
 }
 
 
