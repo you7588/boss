@@ -50,23 +50,22 @@
    top: -90px;
  }
 
- @media (min-width: 76px) {
-  .search {
-    max-width: 1240px;
-    padding-left: 30%;
-    padding-right: 30%;
-    margin: 0 auto;
-  }
- }
- @media (max-width: 400px) {
-  .search {
-    max-width: 80px;
-    padding-left: 40%;
-    padding-right: 40%;
-    margin: 0 auto;
-  }
- }
+.action-btn {
+   margin: 0 auto;
+   border-radius: 0.9em;
+   font-size: 1.428em;
+   padding: 0.57em 5em;
+   letter-spacing: 10px;
+   color: #F4511E;
+   border: 2px solid #F4511E;
+}
 
+.action-btn:hover,
+.action-btn:focus {
+  color: #F6F6F6; //鼠标放置在链接上的文字颜色
+  background-color: #F4511E; //鼠标放置在链接上的背景颜色，这里设为透明
+  border: 2px solid #F6F6F6;
+}
 
 .logo {
     color: #f4511e;
