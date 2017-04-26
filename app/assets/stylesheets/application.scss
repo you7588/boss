@@ -29,7 +29,7 @@
 .season .season-block1, .season .season-block2 {
   padding-left: 30px;
   padding-right: 30px;
-  margin: 0 auto;
+  margin: -30px;
 }
 
 @media (min-width: 768px) {
@@ -131,7 +131,7 @@
  .navbar-default {
     background-color: #f4511e;  //导航栏背景颜色
     border-color: #f4511e; //边框色
-    margin-bottom: 0px; //底部 margin 不撑开距离
+
  }
 
   @media (min-width: 768px) {
@@ -283,3 +283,9 @@
     background-color: #F6F6F6;  //导航栏背景颜色
     margin-bottom: 0px; //底部 margin 不撑开距离
  }
+
+//*****common*****//
+.col-centered {
+  float: none;
+  margin: 0 auto;
+}
