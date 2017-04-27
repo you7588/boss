@@ -20,113 +20,6 @@
  @import "welcome";
 
 
- /****** 主页 header******/
-
-.season {
-    background-color: #F6F6F6;
-}
-
-.season .season-block1, .season .season-block2 {
-  padding-left: 30px;
-  padding-right: 30px;
-  margin: -30px;
-}
-
-@media (min-width: 768px) {
- .season-block1, .footer .season-block2 {
-   max-width: 1240px;
- }
-}
-
- .season-block1 .liang-img,  .footer .season-block2 .liang-img {
-   background-size: cover;
-   background-repeat: no-repeat;
-   border-radius: 0 !important;
-   width: 100%;
-}
-
- .search {
-   position: relative;
-   top: -90px;
- }
-
-.action-btn {
-   margin: 0 auto;
-   border-radius: 0.9em;
-   font-size: 1.428em;
-   padding: 0.57em 5em;
-   letter-spacing: 10px;
-   color: #F4511E;
-   border: 2px solid #F4511E;
-}
-
-.action-btn:hover,
-.action-btn:focus {
-  color: #F6F6F6; //鼠标放置在链接上的文字颜色
-  background-color: #F4511E; //鼠标放置在链接上的背景颜色，这里设为透明
-  border: 2px solid #F6F6F6;
-}
-
-.logo {
-    color: #f4511e;
-    font-size: 200px;
-}
-
-.thumbnail {
-    padding: 0 0 15px 0;
-    border: none;
-    border-radius: 0;
-}
-.thumbnail img {
-    margin-bottom: 10px;
-}
-
-/***** 主页about *****/
-.about {
-  padding: 50px 50px;
-  background: #fff;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.3);
-  border-radius: 10px;
-
-}
-
-
-/***** 主页level *****/
-.bg-grey {
-    margin: 0 auto;
-    padding: 70px 30px;
-}
-
-.story {
-  padding: 50px 40px 50px;
-}
-
-.image-middle img {
-  padding: 20px 20px 20px -30px;
-}
-
-/***** 主页service *****/
-.service {
-  padding: 70px 50px;
-  background: #fff;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.3);
-  border-radius: 10px;
-}
-
- /****** 管理员工作版面******/
- .custab{
-   border: 1px solid #ccc;   //admin／jobs/index.边框
-   padding: 5px;
-   margin: 5% 0;
-   box-shadow: 3px 3px 2px #ccc;
-   transition: 0.5s;
- }
-
- .custab:hover{
-   box-shadow: 3px 3px 0px transparent;   //admin／jobs/index.边框
-   transition: 0.5s;
- }
-
  /****** 导航栏 ******/
  .navbar-default {
     background-color: #f4511e;  //导航栏背景颜色
@@ -289,3 +182,184 @@
   float: none;
   margin: 0 auto;
 }
+
+
+//********************************************************************************************//
+
+
+
+body{
+    overflow-x: hidden;
+    font-family: 'Open Sans', sans-serif;
+    position: relative;
+}
+
+p{
+    font-size: 14px;
+    line-height: 20px;
+}
+
+/*===== common ====*/
+
+section{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+/*===== 网站头贴 ====*/
+.intro{
+    height: 650px;
+    background-color: #f4511e;}
+
+
+.intro-content > h1 {
+    color: #fff;
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-top: 55px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+    word-spacing: 6px;
+}
+
+/*===== 网站头贴 ====*/
+
+
+/*===== 服务优势 ====*/
+.what-we-do{
+    text-align: center;
+    img{
+      margin-top: 35px;
+      margin-bottom: -35px;
+      width: 100px;
+    }
+}
+
+.what-we-do .do-box{
+    border: 1px solid transparent;
+}
+
+.do-box h3{
+    margin-top: 60px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+.do-box p {
+    color: #666;
+    letter-spacing: 1px;
+    line-height: 22px;
+    margin: 40px 25px 40px 25px;
+}
+
+/*===== 服务优势 ====*/
+
+
+/*===== level ====*/  /* 简介与level共用 */
+.our-experts{
+    background-color: #f4511e;
+
+    // p{
+    //   letter-spacing: 1px;
+    // }
+    a{
+      text-decoration:none;
+      color: #002E2E;
+    }
+
+    img{
+      width: 550px;
+    }
+}
+
+.our-experts .expert-box{
+    text-align: center;
+
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    img {
+        width: 172px;
+        margin-top: -15px;
+    }
+}
+
+.our-experts .category-list{
+  text-align: center;
+
+  h3{
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-size: 18px;
+  }
+  p{
+    letter-spacing: 1px;
+    color: #666;
+  }
+}
+
+.our-experts .category-list:hover{
+  .expert-box{
+    border: 1px dashed #f4511e;
+  }
+  h3{
+    color: #4A6BB5;
+  }
+}
+
+
+/*===== level ====*/
+
+
+/*===== 用户反馈 ====*/
+.talk-about-us{
+    padding-bottom: 160px;
+    padding-top: 60px;
+    color: #666;
+}
+
+.talk-about-us strong{
+    margin-top: 25px;
+    color: #4A6BB5;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.talk-about-us .item > img{
+    width: 80px;
+    height: 80px;
+    margin: 0 auto;
+    border-radius: 50%;
+    border: 2px solid #ccc;
+    margin-bottom: 10px;
+}
+
+.talk-about-us .item > p{
+    max-width: 600px;
+    letter-spacing: 1px;
+    margin: 0 auto;
+    line-height: 2;
+    margin-bottom: 20px;
+}
+
+.talk-about-us .carousel-indicators > li {
+    background-color: #dcdcdc;
+    border: 0 none;
+    height: 10px;
+    margin: 1px;
+    width: 10px;
+    border-radius: 0;
+    margin: 0 5px;
+    -moz-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.talk-about-us .carousel-indicators li.active {
+    background-color: #4A6BB5;
+}
+/*===== 用户反馈 ====*/
