@@ -173,7 +173,7 @@
 
  /****** footer ******/
  .footer-default {
-    background-color: #F6F6F6;  //导航栏背景颜色
+    background-color: #f4511e;  //导航栏背景颜色
     margin-bottom: 0px; //底部 margin 不撑开距离
  }
 
@@ -208,7 +208,7 @@ section{
 
 /*===== 网站头贴 ====*/
 .intro{
-    height: 650px;
+    height: 400px;
     background-color: #f4511e;}
 
 
@@ -228,16 +228,19 @@ section{
 
 /*===== 服务优势 ====*/
 .what-we-do{
-    text-align: center;
+  text-align: center;
+  background-image: url('http://ww4.sinaimg.cn/large/006tNbRwgy1ff1mhk1998j31kw0ukwh5.jpg');
+  background-size: cover;
+
+}
+
+.what-we-do .do-box{
+    border: 1px solid transparent;
     img{
       margin-top: 35px;
       margin-bottom: -35px;
       width: 100px;
     }
-}
-
-.what-we-do .do-box{
-    border: 1px solid transparent;
 }
 
 .do-box h3{
@@ -315,9 +318,11 @@ section{
 
 /*===== 用户反馈 ====*/
 .talk-about-us{
+  background-image: url('http://ww4.sinaimg.cn/large/006tNbRwgy1ff1mhkxdvaj31kw1k8gph.jpg');
+  background-size: cover;
     padding-bottom: 160px;
-    padding-top: 60px;
-    color: #666;
+    padding-top: 160px;
+
 }
 
 .talk-about-us strong{
