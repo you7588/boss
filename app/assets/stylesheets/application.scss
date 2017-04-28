@@ -193,9 +193,26 @@ section{
     padding-bottom: 80px;
 }
 
+.section-title {
+    color: #666;
+    margin-top: 55px;
+    margin-bottom: 30px;
+    letter-spacing: 3px;
+    font-size: 40px;
+}
+
+.section-title-2 {
+    color: #fff;
+    margin-top: 55px;
+    margin-bottom: 30px;
+    letter-spacing: 3px;
+    font-size: 40px;
+}
+
+
 /*===== 网站头贴 ====*/
 .intro{
-    height: 400px;
+    height: 350px;
     background-color: #f4511e;
   }
 
@@ -223,15 +240,6 @@ section{
 .main {
   padding-top: 30px;
   padding-bottom: 40px;
-
-}
-
-.main h2{
-    color: #666;
-    margin-top: 55px;
-    margin-bottom: 30px;
-    letter-spacing: 3px;
-    font-size: 40px;
 }
 
 .main p{
@@ -275,13 +283,6 @@ section{
       text-decoration:none;
       color: #fff;
     }
-    h2 {
-      color: #fff;
-      margin-top: 55px;
-      margin-bottom: 40px;
-      letter-spacing: 3px;
-      font-size: 40px;
-    }
 }
 
 .our-experts .expert-box{
@@ -314,23 +315,33 @@ section{
     color: #4A6BB5;
   }
 }
-
-
 /*===== level ====*/
 
+/*====== 岗位资源 ======*/
 
-/*===== 用户反馈 ====*/
-.talk-about-us{
-  background-image: url('http://ww4.sinaimg.cn/large/006tNbRwgy1ff1mhkxdvaj31kw1k8gph.jpg');
+.our-brand{
+  background-image: url('http://ww4.sinaimg.cn/large/006tNbRwgy1ff1mhk1998j31kw0ukwh5.jpg');
   background-size: cover;
+  padding-bottom: 160px;
+  padding-top: 160px;
+
+  img{
+    margin: 25px 15px 35px 15px;
+    width: 150px;
+  }
+}
+/*====== 岗位资源 ======*/
+
+/*===== 我在这里告诉你 ====*/
+.talk-about-us{
+    background-color: #f4511e;
     padding-bottom: 160px;
     padding-top: 160px;
-
 }
 
 .talk-about-us strong{
     margin-top: 25px;
-    color: #4A6BB5;
+    color: #fff;
     font-weight: 600;
     font-style: italic;
 }
@@ -353,7 +364,7 @@ section{
 }
 
 .talk-about-us .carousel-indicators > li {
-    background-color: #dcdcdc;
+    background-color: #fff;
     border: 0 none;
     height: 10px;
     margin: 1px;
@@ -368,6 +379,6 @@ section{
 }
 
 .talk-about-us .carousel-indicators li.active {
-    background-color: #4A6BB5;
+    background-color: #fff;
 }
-/*===== 用户反馈 ====*/
+/*===== 我在这里告诉你 ====*/
