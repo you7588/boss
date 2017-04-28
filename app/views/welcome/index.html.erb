@@ -6,7 +6,7 @@
               <div class="col-md-12 text-center">
                 <div class="intro-content">
                   <h1>Ruby on Rails</h1>
-                  <P>全栈工程师</p>
+                  <P class>全栈工程师</p>
                   <a class="btn btn-welcome" href="jobs" role="button">快到碗里来</a></a>
                 </div>
               </div>
@@ -17,15 +17,16 @@
           <!--======== 服务优势 =========-->
           <section id="service" class="what-we-do ">
               <div class="row">
-                <div class="col-md-12 main">
+                <div class="col-md-12 service">
                   <h2 class="section-title">服务优势</h2>
                   <p>在全栈的路上，我们拥有梦想拥有热情，但我们也常常感到迷茫和无助。
                     <br/>不用怕，这里有科学的筛选工作机制，有最全最广最集中的工作岗位资源，为你提供成长型职位。</p>
+                    <p-2>________________________</p-2>
                 </div>
               </div>
 
               <div class="row">
-                <div class="col-md-10 col-md-offset-1">
+                <div class="col-md-12">
                   <div class="row">
                     <div class="col-md-4 col-sm-4 col-xs-12">
                       <div class="do-box">
@@ -56,20 +57,21 @@
           <!--======== end 服务优势 =========-->
 
           <!--======== level =========-->
-          <section id="genius" class="our-experts">
+          <section id="genius" class="level">
             <div class="container">
               <div class="col-md-12">
                 <div class="row">
                   <div class="row">
                     <div class="col-md-12 text-center">
                       <h2 class="section-title-2">程序员等级</h2>
+                      <p>_____________________</p>
                     </div>
                   </div>
                     <div class="col-md-12">
                       <div class="row">
                           <div class="col-md-4 category-list">
                             <%= link_to jobs_path(:category => "编程门外汉") , class: "category_1" do %>
-                              <div class="expert-box">
+                              <div class="level-box">
                                   <%= image_tag("level-1.png") %>
                               </div>
                               <div>
@@ -80,7 +82,7 @@
                           </div>
                           <div class="col-md-4 category-list">
                             <%= link_to jobs_path(:category => "编程新手") , class: "category_2" do %>
-                              <div class="expert-box">
+                              <div class="level-box">
                                   <%= image_tag("level-2.png") %>
                               </div>
                               <div>
@@ -91,7 +93,7 @@
                           </div>
                           <div class="col-md-4 category-list">
                             <%= link_to jobs_path(:category => "高级新手") , class: "category_3" do %>
-                              <div class="expert-box">
+                              <div class="level-box">
                                   <%= image_tag("level-3.png") %>
                               </div>
                               <div>
@@ -105,7 +107,7 @@
                       <div class="row">
                         <div class="col-md-4 category-list">
                           <%= link_to jobs_path(:category => "制作人") , class: "category_5" do %>
-                            <div class="expert-box">
+                              <div class="level-box">
                                 <%= image_tag("level-4.png") %>
                             </div>
                             <div>
@@ -116,7 +118,7 @@
                         </div>
                         <div class="col-md-4 category-list">
                           <%= link_to jobs_path(:category => "项目经理") , class: "category_6" do %>
-                            <div class="expert-box">
+                              <div class="level-box">
                                 <%= image_tag("level-5.png") %>
                             </div>
                             <div>
@@ -127,7 +129,7 @@
                         </div>
                         <div class="col-md-4 category-list">
                           <%= link_to jobs_path(:category => "Growth hacker") , class: "category_7" do %>
-                            <div class="expert-box">
+                              <div class="level-box">
                                 <%= image_tag("level-6.png") %>
                             </div>
                             <div>

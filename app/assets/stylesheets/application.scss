@@ -195,18 +195,18 @@ section{
 
 .section-title {
     color: #666;
-    margin-top: 55px;
+    margin-top: 35px;
     margin-bottom: 40px;
     letter-spacing: 3px;
-    font-size: 40px;
+    font-size: 38px;
 }
 
 .section-title-2 {
     color: #fff;
-    margin-top: 55px;
+    margin-top: 45px;
     margin-bottom: 50px;
     letter-spacing: 3px;
-    font-size: 40px;
+    font-size: 38px;
 }
 
 
@@ -230,12 +230,11 @@ section{
 .intro-content > p {
     color: #fff;
     font-size: 38px;
-    font-weight: 55px;
-    letter-spacing: 2px;
+    font-weight: 40px;
+    letter-spacing: 3px;
     margin-top: 20px;
     margin-bottom: 20px;
     text-transform: capitalize;
-    word-spacing: 6px;
 }
 
 .btn-welcome {
@@ -263,22 +262,22 @@ section{
   text-align: center;
   background-image: url('http://ww4.sinaimg.cn/large/006tNbRwgy1ff1mhk1998j31kw0ukwh5.jpg');
   background-size: cover;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
-.main {
-  padding-top: 30px;
-  padding-bottom: 40px;
-}
-
-.main p{
+.service p{
     color: #666;
-    letter-spacing: 1px;
-    line-height: 22px;
+    letter-spacing: 2px;
+    line-height: 25px;
     font-size: 17px;
 }
 
+.service p-2{
+    color: #f4511e;
+}
+
 .what-we-do .do-box{
-    border: 1px solid transparent;
     img{
       margin-top: 35px;
       margin-bottom: -35px;
@@ -305,15 +304,21 @@ section{
 
 
 /*===== level ====*/
-.our-experts{
+.level{
     background-color: #f4511e;
     a{
       text-decoration:none;
       color: #fff;
     }
+    p{
+      margin-top: -35px;
+      margin-bottom: 40px;
+      color: #fff;
+    }
+
 }
 
-.our-experts .expert-box{
+.level .level-box{
     text-align: center;
     margin-top: 45px;
     img {
@@ -322,28 +327,23 @@ section{
     }
 }
 
-.our-experts .category-list{
+.level .category-list{
   text-align: center;
   h3{
-    font-weight: 700;
-    letter-spacing: 1px;
-    font-size: 18px;
-  }
-  p{
-    letter-spacing: 1px;
-    color: #666;
+      color: #FFF;
+      margin-top: 15px;
+      margin-bottom: 8px;
+      font-size: 18px;
+      letter-spacing: 1px;
   }
 }
 
-.our-experts .category-list:hover{
-  .expert-box{
-    border: 1px dashed #f4511e;
-  }
+.level .category-list:hover{
   h3{
-    color: #4A6BB5;
+    color: #FA9181;
   }
 }
-/*===== level ====*/
+/*===== end level ====*/
 
 /*====== 岗位资源 ======*/
 
