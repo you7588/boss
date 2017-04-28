@@ -173,7 +173,36 @@
  /****** footer ******/
  .footer-default {
     background-color: #f4511e;  //导航栏背景颜色
-    margin-bottom: 0px; //底部 margin 不撑开距离
+    height: 240px;
+    text-align: center;
+    p {
+      color: #fff;
+      margin-top: 120px;
+      letter-spacing: 2px;
+      line-height: 25px;
+      font-size: 17px;
+    }
+    // .glyphicon {
+    //   margin-top: 130px;
+    // }
+
+ //
+ //    .btn-welcome {
+ //      color: #f4511e;
+ //      font-size: 22px;
+ //      border-style: solid;
+ //      border-width: 2px;
+ //      border-color: #f4511e;
+ //      padding: 10px 80px;
+ //      border-radius: 35px;
+ //      letter-spacing: 3px;
+ //      background-color: #f4511e;
+ //    }
+ //
+ //    .btn.btn-welcome:hover{
+ //        border-color: #f4511e;
+ //        color: #15AB5F;
+ // }
  }
 
 //*****common*****//
@@ -281,7 +310,7 @@ section{
     img{
       margin-top: 35px;
       margin-bottom: -35px;
-      width: 150px;
+      width: 180px;
     }
 }
 
@@ -371,6 +400,14 @@ section{
     background-color: #f4511e;
     padding-bottom: 160px;
     padding-top: 120px;
+
+    p{
+      margin-top: -35px;
+      margin-bottom: 40px;
+      color: #fff;
+      letter-spacing: 1px;
+      line-height: 22px;
+    }
 }
 
 .talk-about-us strong{
@@ -412,17 +449,18 @@ section{
     transform: rotate(45deg);
 }
 
-.talk-about-us .carousel-indicators li.active {
-    background-color: #fff;
-}
+
 /*===== 我在这里告诉你 ====*/
 
 .support {
   background-image: url('http://ww3.sinaimg.cn/large/006tNbRwgy1ff2p7jvgp3j31kw0mgju1.jpg');
   background-size: cover;
-  background-position: center;
+margin-left: -20px;
+margin-right: -15px;
   padding-bottom: 280px;
   padding-top: 200px;
+  background-position: center;
+
 
   img{
     margin: 25px 15px 35px 15px;
