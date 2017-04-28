@@ -196,7 +196,7 @@ section{
 .section-title {
     color: #666;
     margin-top: 55px;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
     letter-spacing: 3px;
     font-size: 40px;
 }
@@ -204,7 +204,7 @@ section{
 .section-title-2 {
     color: #fff;
     margin-top: 55px;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
     letter-spacing: 3px;
     font-size: 40px;
 }
@@ -212,24 +212,47 @@ section{
 
 /*===== 网站头贴 ====*/
 .intro{
-    height: 350px;
+    height: 390px;
     background-color: #f4511e;
   }
 
 .intro-content > h1 {
     color: #fff;
     font-size: 60px;
-    font-weight: 700;
+    font-weight: 60px;
     letter-spacing: 2px;
-    margin-top: 55px;
-    margin-bottom: 45px;
+    margin-top: 20px;
+    margin-bottom: 10px;
     text-transform: capitalize;
     word-spacing: 6px;
 }
 
-.btn {
-  color: #fff;
-  font-size: 20px;
+.intro-content > p {
+    color: #fff;
+    font-size: 38px;
+    font-weight: 55px;
+    letter-spacing: 2px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+    word-spacing: 6px;
+}
+
+.btn-welcome {
+  color: #f4511e;
+  font-size: 22px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #FFF;
+  padding: 10px 80px;
+  border-radius: 35px;
+  letter-spacing: 3px;
+  background-color: #FFF;
+}
+
+.btn.btn-welcome:hover{
+    border-color: #FFF;
+    color: #15AB5F;
 }
 
 /*===== 网站头贴 ====*/
@@ -387,3 +410,16 @@ section{
     background-color: #fff;
 }
 /*===== 我在这里告诉你 ====*/
+
+.support {
+  background-image: url('http://ww3.sinaimg.cn/large/006tNbRwgy1ff2p7jvgp3j31kw0mgju1.jpg');
+  background-size: cover;
+  background-position: center;
+  padding-bottom: 280px;
+  padding-top: 200px;
+
+  img{
+    margin: 25px 15px 35px 15px;
+    width: 150px;
+  }
+}
