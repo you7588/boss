@@ -281,7 +281,7 @@ section{
     img{
       margin-top: 35px;
       margin-bottom: -35px;
-      width: 100px;
+      width: 150px;
     }
 }
 
@@ -347,15 +347,21 @@ section{
 
 /*====== 岗位资源 ======*/
 
-.our-brand{
+.source{
   background-image: url('http://ww4.sinaimg.cn/large/006tNbRwgy1ff1mhk1998j31kw0ukwh5.jpg');
   background-size: cover;
   padding-bottom: 160px;
-  padding-top: 160px;
+  padding-top: 120px;
 
   img{
     margin: 25px 15px 35px 15px;
     width: 150px;
+  }
+
+  p{
+    margin-top: -15px;
+    margin-bottom: 40px;
+    color: #f4511e;
   }
 }
 /*====== 岗位资源 ======*/
@@ -364,7 +370,7 @@ section{
 .talk-about-us{
     background-color: #f4511e;
     padding-bottom: 160px;
-    padding-top: 160px;
+    padding-top: 120px;
 }
 
 .talk-about-us strong{
