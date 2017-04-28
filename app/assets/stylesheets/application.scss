@@ -24,7 +24,6 @@
  .navbar-default {
     background-color: #f4511e;  //导航栏背景颜色
     border-color: #f4511e; //边框色
-
  }
 
   @media (min-width: 768px) {
@@ -187,38 +186,26 @@
 //********************************************************************************************//
 
 
-
-body{
-    overflow-x: hidden;
-    font-family: 'Open Sans', sans-serif;
-    position: relative;
-}
-
-p{
-    font-size: 14px;
-    line-height: 20px;
-}
-
 /*===== common ====*/
 
 section{
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 80px;
+    padding-bottom: 80px;
 }
 
 /*===== 网站头贴 ====*/
 .intro{
     height: 400px;
-    background-color: #f4511e;}
-
+    background-color: #f4511e;
+  }
 
 .intro-content > h1 {
     color: #fff;
-    font-size: 40px;
+    font-size: 60px;
     font-weight: 700;
     letter-spacing: 2px;
     margin-top: 55px;
-    margin-bottom: 25px;
+    margin-bottom: 45px;
     text-transform: capitalize;
     word-spacing: 6px;
 }
@@ -231,7 +218,27 @@ section{
   text-align: center;
   background-image: url('http://ww4.sinaimg.cn/large/006tNbRwgy1ff1mhk1998j31kw0ukwh5.jpg');
   background-size: cover;
+}
 
+.main {
+  padding-top: 30px;
+  padding-bottom: 40px;
+
+}
+
+.main h2{
+    color: #666;
+    margin-top: 55px;
+    margin-bottom: 30px;
+    letter-spacing: 3px;
+    font-size: 40px;
+}
+
+.main p{
+    color: #666;
+    letter-spacing: 1px;
+    line-height: 22px;
+    font-size: 17px;
 }
 
 .what-we-do .do-box{
@@ -244,8 +251,9 @@ section{
 }
 
 .do-box h3{
-    margin-top: 60px;
-    margin-bottom: 20px;
+    color: #f4511e;
+    margin-top: 65px;
+    margin-bottom: 8px;
     font-size: 18px;
     letter-spacing: 1px;
 }
@@ -254,44 +262,39 @@ section{
     color: #666;
     letter-spacing: 1px;
     line-height: 22px;
-    margin: 40px 25px 40px 25px;
+    margin: 25px 20px 40px 20px;
 }
 
 /*===== 服务优势 ====*/
 
 
-/*===== level ====*/  /* 简介与level共用 */
+/*===== level ====*/
 .our-experts{
     background-color: #f4511e;
-
-    // p{
-    //   letter-spacing: 1px;
-    // }
     a{
       text-decoration:none;
-      color: #002E2E;
+      color: #fff;
     }
-
-    img{
-      width: 550px;
+    h2 {
+      color: #fff;
+      margin-top: 55px;
+      margin-bottom: 40px;
+      letter-spacing: 3px;
+      font-size: 40px;
     }
 }
 
 .our-experts .expert-box{
     text-align: center;
-
-    margin-top: 25px;
-    margin-left: auto;
-    margin-right: auto;
+    margin-top: 45px;
     img {
-        width: 172px;
-        margin-top: -15px;
+        width: 240px;
+        margin: -15px 20px 5px 20px;
     }
 }
 
 .our-experts .category-list{
   text-align: center;
-
   h3{
     font-weight: 700;
     letter-spacing: 1px;
