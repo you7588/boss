@@ -173,19 +173,24 @@
  /****** footer ******/
  .footer-default {
     background-color: #f4511e;  //导航栏背景颜色
-    height: 240px;
-    text-align: center;
+    height: 400px;
     p {
       color: #fff;
-      margin-top: 120px;
+      margin-top: 40px;
       letter-spacing: 2px;
-      line-height: 25px;
-      font-size: 17px;
     }
-    // .glyphicon {
-    //   margin-top: 130px;
-    // }
-
+    .logo {
+      margin-top: 150px;
+      margin-bottom: 40px;
+      img{
+      margin-left: 25px ;
+      width: 55px;
+      }
+    }
+    .glyphicon {
+      margin-bottom: -60px;
+      color: #fff;
+    }
 
  }
 
@@ -413,11 +418,11 @@ section{
 }
 
 .talk-about-us .person> img{
-    width: 200px;
-    height: 200px;
-    margin: 0 auto;
-    border-radius: 50%;
-    border: 2px solid #ccc;
+    width: 220px;
+    height: 180px;
+    // margin: 0 auto;
+    // border-radius: 50%;
+    // border: 2px solid #ccc;
     margin-bottom: 20px;
 }
 
@@ -448,42 +453,14 @@ section{
 /*===== end 我在这里告诉你 ====*/
 
 
-/*===== back ====*/
-.support {
+/*===== team ====*/
+
+.team{
   background-image: url('http://ww3.sinaimg.cn/large/006tNbRwgy1ff2p7jvgp3j31kw0mgju1.jpg');
   background-size: cover;
-  margin-left: -20px;
-  margin-right: -15px;
-  padding-bottom: 280px;
-  padding-top: 200px;
+  padding-left: 50px;
+  padding-right: 50px;
   background-position: center;
   text-align: center;
-
-
-  // img{
-  //   margin: 25px 15px 35px 15px;
-  //   width: 150px;
-  // }
-
-    //  .btn-back {
-    //    color: #fff;
-    //    font-size: 22px;
-    //    border-style: solid;
-    //    border-width: 2px;
-    //    border-color: #f4511e;
-    //    padding: 10px 80px;
-    //    border-radius: 35px;
-    //    letter-spacing: 3px;
-    //    background-color: #f4511e;
-    //  }
-     //
-    //  .btn.btn-back:hover{
-    //      border-color: #f4511e;
-    //      color: #15AB5F;
-  // }
-  p {
-    padding-top: 150px;
-    color: #f4511e;
-  }
 }
-/*===== end back ====*/
+/*===== end team ====*/
