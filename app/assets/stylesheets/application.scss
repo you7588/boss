@@ -26,12 +26,6 @@
     border-color: #f4511e; //边框色
  }
 
-  @media (min-width: 768px) {
-   .navbar {
-     border-radius: 0; //导航栏圆角为0
-   }
- }
-
  /****** 导航栏字体 ******/
   .navbar-default .navbar-brand {
     color: #E0F7FA; //字体颜色
@@ -378,7 +372,7 @@ section{
   margin-right: -15px;
 
   img{
-    margin: 25px 15px 35px 15px;
+    margin: -25px 15px;
     width: 150px;
   }
 
@@ -418,8 +412,8 @@ section{
 }
 
 .talk-about-us .person> img{
-    width: 220px;
-    height: 180px;
+    width: 180px;
+    // height: 180px;
     // margin: 0 auto;
     // border-radius: 50%;
     // border: 2px solid #ccc;
