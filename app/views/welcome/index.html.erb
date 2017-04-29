@@ -3,11 +3,11 @@
           <!--======== 网站头图 =========-->
           <section class="intro">
             <div class="row">
-              <div class="col-md-12 text-center">
+              <div class="col-md-10 col-centered text-center ">
                 <div class="intro-content">
-                  <h1>Ruby on Rails</h1>
-                  <P class>全栈工程师</p>
-                  <a class="btn btn-welcome" href="jobs" role="button">快到碗里来</a>
+                  <h1>闯关晋级成为自己的大BOSS</h1>
+                  <P class>Ruby on Rails 全栈工程师</p>
+                  <a class="btn btn-welcome" href="jobs" role="button">直奔战场</a>
                 </div>
               </div>
             </div>
@@ -17,18 +17,18 @@
           <!--======== 服务优势 =========-->
           <section id="service" class="what-we-do ">
               <div class="row">
-                <div class="col-md-12 service">
+                <div class="col-md-10 service col-centered text-center">
                   <h2 class="section-title">服务优势</h2>
                   <p>在全栈的路上，我们拥有梦想拥有热情，但我们也常常感到迷茫和无助。
                     <br/>不用怕，这里有科学的筛选工作机制，有最全最广最集中的工作岗位资源，为你提供成长型职位。</p>
-                    <p-2>________________________</p-2>
+                    <p-2>__________________</p-2>
                 </div>
               </div>
 
               <div class="row">
-                <div class="col-md-12">
+                <div class="col-md-10 col-centered text-center">
                   <div class="row">
-                    <div class="col-md-4 col-sm-4 col-xs-12">
+                    <div class="col-md-4">
                       <div class="do-box">
                         <%= image_tag("dingwei.png") %>
                         <h3>快速定位</h3>
@@ -36,14 +36,14 @@
 
                       </div>
                     </div>
-                    <div class="col-md-4 col-sm-4 col-xs-12">
+                    <div class="col-md-4">
                       <div class="do-box">
                         <%= image_tag("xuanze.png") %>
                         <h3>优质高效的选择</h3>
                         <p>我们有专业的团队，收集各大企业及招聘网的信息，提供信息对称集中的工作。为你较少找工作成本。</p>
                       </div>
                     </div>
-                    <div class="col-md-4 col-sm-4 col-xs-12">
+                    <div class="col-md-4">
                       <div class="do-box">
                         <%= image_tag("chengzhang.png") %>
                         <h3>提供成长型岗位</h3>
@@ -52,22 +52,21 @@
                     </div>
                   </div>
                 </div>
+                </div>
               </div>
           </section>
           <!--======== end 服务优势 =========-->
 
           <!--======== level =========-->
           <section id="genius" class="level">
-            <div class="container">
-              <div class="col-md-12">
+            <div class="container-fluid">
+              <div class="col-md-10 col-centered text-center">
                 <div class="row">
+
                   <div class="row">
-                    <div class="col-md-12 text-center">
                       <h2 class="section-title-2">程序员等级</h2>
-                      <p>_____________________</p>
+                      <p>_______________</p>
                     </div>
-                  </div>
-                    <div class="col-md-12">
                       <div class="row">
                           <div class="col-md-4 category-list">
                             <%= link_to jobs_path(:category => "编程门外汉") , class: "category_1" do %>
@@ -139,7 +138,6 @@
                           <% end %>
                         </div>
                       </div>
-                    </div>
                   </div>
                 </div>
             </div>
@@ -154,7 +152,7 @@
                 <div class="row">
                   <div class="col-md-12 text-center">
                     <h2 class="section-title">岗位资源</h2>
-                     <p>__________________</p>
+                     <p>______________</p>
                     <%= image_tag("boss.png") %>
                     <%= image_tag("lagou.png") %>
                   </div>
@@ -168,22 +166,28 @@
           <section id="testimonial" class="talk-about-us">
             <div class="container">
               <div class="row">
-                <div class="col-md-12 col-xs-12 text-center">
+                <div class="col-md-10 col-centered text-center">
                   <h2 class="section-title-2">我在岗位上告诉你</h2>
-                   <p>______________</p>
+                   <p-4>______________</p-4>
                   <!-- <div id="talk-about-us" class="carousel slide" data-ride="carousel">
                     <ol class="carousel-indicators">
                       <li data-target="#talk-about-us" data-slide-to="0" class="active"></li>
                       <li data-target="#talk-about-us" data-slide-to="1"></li>
                       <li data-target="#talk-about-us" data-slide-to="2"></li>
                     </ol> -->
+
                     <div class="carousel-inner" role="listbox">
+
                       <div class="item active">
-                        <p>我在xxx这个公司的xxx岗位里面工作了3年，这是一个挑战性很大的岗位，有时候会加班，但是学到了很多东西，让我快速成长。这三年里学到了。。。。</p>
-                        <%= image_tag("person.png") %>
-                        <strong>Mary ,
-                          介面设计师 ，xxx在职人员</strong>
+                        <div class="col-md-4">
+                          <span class="person" > <img src='<%= image_url 'person.png' %>'</span>
+                          <strong><br/>Mary ,介面设计师 ,xxx在职人员</strong>
+                        </div>
+                        <div class="col-md-8">
+                          <p>我在xxx这个公司的xxx岗位里面工作了3年，这是一个挑战性很大的岗位，有时候会加班，但是学到了很多东西，让我快速成长。这三年里学到了。。。。</p>
+                        </div>
                       </div>
+
                       <!-- <div class="item">
                         <p>Facebook、Airbnb、Google，全球最顶尖公司的职缺，这里都有！而且更新非常快，每天都有新职缺，可以说是市面上最厉害的招聘网站！</p>
                         <%= image_tag("user_3.png") %>
@@ -196,6 +200,7 @@
                       </div> -->
                     </div>
                   </div>
+                  </div>
                 </div>
               </div>
             </div>
@@ -207,12 +212,18 @@
           <section class="support">
             <div class="container">
               <div class="row">
-
-                  <!-- <a class="btn btn-welcome" href="jobs" role="button">回到碗里去</a></a> -->
-
+                <div class="col-md-12 col-xs-12 text-center">
+                    <p>未完，待续。。。。</p>
+                  <!-- <a href="#myPage" title="To Top">
+                    <span class="btn btn-back " href="jobs">返回战场</span>
+                  </a> -->
               </div>
             </div>
+          </div>
           </section>
+
+
+
           <!--======== end 再度推坑 =========-->
 
       </body>

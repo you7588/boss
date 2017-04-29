@@ -186,23 +186,7 @@
     //   margin-top: 130px;
     // }
 
- //
- //    .btn-welcome {
- //      color: #f4511e;
- //      font-size: 22px;
- //      border-style: solid;
- //      border-width: 2px;
- //      border-color: #f4511e;
- //      padding: 10px 80px;
- //      border-radius: 35px;
- //      letter-spacing: 3px;
- //      background-color: #f4511e;
- //    }
- //
- //    .btn.btn-welcome:hover{
- //        border-color: #f4511e;
- //        color: #15AB5F;
- // }
+
  }
 
 //*****common*****//
@@ -227,7 +211,8 @@ section{
     margin-top: 35px;
     margin-bottom: 40px;
     letter-spacing: 3px;
-    font-size: 38px;
+    font-size: 30px;
+    font-family: STHeiti Light;
 }
 
 .section-title-2 {
@@ -235,7 +220,8 @@ section{
     margin-top: 45px;
     margin-bottom: 50px;
     letter-spacing: 3px;
-    font-size: 38px;
+    font-size: 30px;
+    font-family: STHeiti Light;
 }
 
 
@@ -247,23 +233,24 @@ section{
 
 .intro-content > h1 {
     color: #fff;
-    font-size: 60px;
-    font-weight: 60px;
+    font-size: 55px;
     letter-spacing: 2px;
     margin-top: 20px;
     margin-bottom: 10px;
     text-transform: capitalize;
     word-spacing: 6px;
+    font-family: STHeiti Light;
+    font-weight: bold;
 }
 
 .intro-content > p {
     color: #fff;
-    font-size: 38px;
-    font-weight: 40px;
+    font-size: 24px;
     letter-spacing: 3px;
     margin-top: 20px;
     margin-bottom: 20px;
     text-transform: capitalize;
+    font-family: STHeiti Light;
 }
 
 .btn-welcome {
@@ -298,8 +285,6 @@ section{
 .service p{
     color: #666;
     letter-spacing: 2px;
-    line-height: 25px;
-    font-size: 17px;
 }
 
 .service p-2{
@@ -318,7 +303,7 @@ section{
     color: #f4511e;
     margin-top: 65px;
     margin-bottom: 8px;
-    font-size: 18px;
+    font-size: 16px;
     letter-spacing: 1px;
 }
 
@@ -335,6 +320,9 @@ section{
 /*===== level ====*/
 .level{
     background-color: #f4511e;
+    margin-left: -15px;
+    margin-right: -15px;
+
     a{
       text-decoration:none;
       color: #fff;
@@ -362,7 +350,7 @@ section{
       color: #FFF;
       margin-top: 15px;
       margin-bottom: 8px;
-      font-size: 18px;
+      font-size: 16px;
       letter-spacing: 1px;
   }
 }
@@ -379,8 +367,10 @@ section{
 .source{
   background-image: url('http://ww4.sinaimg.cn/large/006tNbRwgy1ff1mhk1998j31kw0ukwh5.jpg');
   background-size: cover;
-  padding-bottom: 160px;
+  padding-bottom: 200px;
   padding-top: 120px;
+  margin-left: -15px;
+  margin-right: -15px;
 
   img{
     margin: 25px 15px 35px 15px;
@@ -398,35 +388,40 @@ section{
 /*===== 我在这里告诉你 ====*/
 .talk-about-us{
     background-color: #f4511e;
-    padding-bottom: 160px;
-    padding-top: 120px;
+    padding-bottom: 150px;
+    padding-top: 100px;
+    margin-left: -15px;
+    margin-right: -15px;
+
+    p-4{
+      color: #fff;
+      // margin-top: -50px;
+    }
 
     p{
-      margin-top: -35px;
-      margin-bottom: 40px;
       color: #fff;
       letter-spacing: 1px;
       line-height: 22px;
+      margin: 100px 20px 40px 10px;
+
     }
 }
 
 .talk-about-us strong{
-    margin-top: 25px;
+    padding-top: 30px;
     color: #fff;
-    font-weight: 600;
-    font-style: italic;
 }
 
-.talk-about-us .item > img{
-    width: 80px;
-    height: 80px;
+.talk-about-us .person> img{
+    width: 200px;
+    height: 200px;
     margin: 0 auto;
     border-radius: 50%;
     border: 2px solid #ccc;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
-.talk-about-us .item > p{
+.talk-about-us .person > p{
     max-width: 600px;
     letter-spacing: 1px;
     margin: 0 auto;
@@ -434,36 +429,59 @@ section{
     margin-bottom: 20px;
 }
 
-.talk-about-us .carousel-indicators > li {
-    background-color: #fff;
-    border: 0 none;
-    height: 10px;
-    margin: 1px;
-    width: 10px;
-    border-radius: 0;
-    margin: 0 5px;
-    -moz-transform: rotate(45deg);
-    -webkit-transform: rotate(45deg);
-    -o-transform: rotate(45deg);
-    -ms-transform: rotate(45deg);
-    transform: rotate(45deg);
-}
+// .talk-about-us .carousel-indicators > li {
+//     background-color: #fff;
+//     border: 0 none;
+//     height: 10px;
+//     margin: 1px;
+//     width: 10px;
+//     border-radius: 0;
+//     margin: 0 5px;
+//     -moz-transform: rotate(45deg);
+//     -webkit-transform: rotate(45deg);
+//     -o-transform: rotate(45deg);
+//     -ms-transform: rotate(45deg);
+//     transform: rotate(45deg);
+// }
 
 
-/*===== 我在这里告诉你 ====*/
+/*===== end 我在这里告诉你 ====*/
 
+
+/*===== back ====*/
 .support {
   background-image: url('http://ww3.sinaimg.cn/large/006tNbRwgy1ff2p7jvgp3j31kw0mgju1.jpg');
   background-size: cover;
-margin-left: -20px;
-margin-right: -15px;
+  margin-left: -20px;
+  margin-right: -15px;
   padding-bottom: 280px;
   padding-top: 200px;
   background-position: center;
 
+  // img{
+  //   margin: 25px 15px 35px 15px;
+  //   width: 150px;
+  // }
 
-  img{
-    margin: 25px 15px 35px 15px;
-    width: 150px;
+    //  .btn-back {
+    //    color: #fff;
+    //    font-size: 22px;
+    //    border-style: solid;
+    //    border-width: 2px;
+    //    border-color: #f4511e;
+    //    padding: 10px 80px;
+    //    border-radius: 35px;
+    //    letter-spacing: 3px;
+    //    background-color: #f4511e;
+    //  }
+     //
+    //  .btn.btn-back:hover{
+    //      border-color: #f4511e;
+    //      color: #15AB5F;
+  // }
+  p {
+    padding-top: 150px;
+    color: #f4511e;
   }
 }
+/*===== end back ====*/
