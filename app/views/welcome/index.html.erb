@@ -1,5 +1,5 @@
 
-      <body data-spy="scroll" data-target=".nav-top">
+
           <!--======== 网站头图 =========-->
           <section class="intro">
             <div class="row">
@@ -172,37 +172,52 @@
               <div class="row">
                 <div class="col-md-10 col-centered text-center">
                   <h2 class="section-title-2">我在岗位上告诉你</h2>
-                   <p-4>______________</p-4>
-                  <!-- <div id="talk-about-us" class="carousel slide" data-ride="carousel">
+                   <p-x>______________</p-x>
+
+                   <div class="container-fluid">
+                     <div class="row">
+                    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                    <!-- Indicators -->
                     <ol class="carousel-indicators">
-                      <li data-target="#talk-about-us" data-slide-to="0" class="active"></li>
-                      <li data-target="#talk-about-us" data-slide-to="1"></li>
-                      <li data-target="#talk-about-us" data-slide-to="2"></li>
-                    </ol> -->
+                      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                      <li data-target="#myCarousel" data-slide-to="1"></li>
+                      <li data-target="#myCarousel" data-slide-to="2"></li>
+                    </ol>
 
-                    <div class="carousel-inner" role="listbox">
-
-                      <div class="item active">
-                        <div class="col-md-4">
-                          <span class="person" > <img src='<%= image_url 'person-1.png' %>'</span>
-                          <strong><br/>Kevin,介面设计师 ,xxx在职人员</strong>
+                      <!-- Wrapper for slides -->
+                      <div class="carousel-inner" role="listbox">
+                        <div class="item active">
+                          <img src='<%= image_url 'person-1.png' %>' >
+                          <div class="carousel-caption">
+                            <p>我在xxx这个公司的xxx岗位里面工作了3年，这是一个挑战性很大的岗位，有时候会加班，但是学到了很多东西，让我快速成长。这三年里获得了。。。。
+                            <strong><br/><br/>Kevin,介面设计师 ,xxx在职人员</strong></p>
+                          </div>
                         </div>
-                        <div class="col-md-8">
-                          <p>我在xxx这个公司的xxx岗位里面工作了3年，这是一个挑战性很大的岗位，有时候会加班，但是学到了很多东西，让我快速成长。这三年里学到了。。。。</p>
+                        <div class="item">
+                          <img src='<%= image_url 'person-2.png' %>'>
+                          <div class="carousel-caption">
+                            <p>我在xxx这个公司的xxx岗位里面工作了5年，这是一个挑战性很大的岗位，偶尔会加班，但是学到了很多东西，让我快速成长。这五年里收获了。。。。
+                            <strong><br/><br/>Mary,项目经理 ,xxx在职人员</strong></p>
+                          </div>
                         </div>
-                      </div>
+                        <div class="item">
+                          <img src='<%= image_url 'person-3.png' %>'>
+                          <div class="carousel-caption">
+                            <p>我在xxx这个公司的xxx岗位里面工作了7年，这是一个挑战性很大的岗位，有时候会加班，但是学到了很多东西，让我快速成长。这七年里学到了。。。。
+                            <strong><br/><br/>lily,制作人,xxx公司任职</strong></p>
+                          </div>
+                        </div>
 
-                      <!-- <div class="item">
-                        <p>Facebook、Airbnb、Google，全球最顶尖公司的职缺，这里都有！而且更新非常快，每天都有新职缺，可以说是市面上最厉害的招聘网站！</p>
-                        <%= image_tag("user_3.png") %>
-                        <strong>Kelly , 数据工程师 </strong>
-                      </div>
-                      <div class="item">
-                        <p>庞大的人才数据库，让我在搭建新团队时能快速找到一流高手，简易又好上手的后台让我省去许多麻烦，可以专注于挖掘人才。</p>
-                        <%= image_tag("user_2.png") %>
-                        <strong>Rex , 产品总监 </strong>
-                      </div> -->
+
                     </div>
+                    <!-- Left and right controls -->
+                    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                      <span class="fa fa-angle-left" aria-hidden="true"></span></a>
+                      <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                        <span class="fa fa-angle-right" aria-hidden="true"></span></a>
+                      </div>
+                    </div>
+                  </div>
                   </div>
                   </div>
                 </div>
@@ -248,10 +263,6 @@
                   </div>
                 </div>
                 </div>
-              </div>
           </section>
 
-
           <!--======== end 再度推坑 =========-->
-
-      </body>

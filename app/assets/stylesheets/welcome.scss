@@ -1,3 +1,282 @@
 // Place all the styles related to the welcome controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+
+
+//*****common*****//
+.col-centered {
+  float: none;
+  margin: 0 auto;
+}
+
+section{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.section-title {
+    color: #666;
+    margin-top: 35px;
+    margin-bottom: 40px;
+    letter-spacing: 3px;
+    font-size: 30px;
+    font-family: STHeiti Light;
+}
+
+.section-title-2 {
+    color: #fff;
+    margin-top: 45px;
+    margin-bottom: 50px;
+    letter-spacing: 3px;
+    font-size: 30px;
+    font-family: STHeiti Light;
+}
+
+/*===== common ====*/
+
+
+
+/*===== 网站头贴 ====*/
+.intro{
+    height: 390px;
+    background-color: #f4511e;
+  }
+
+.intro-content > h1 {
+    color: #fff;
+    font-size: 55px;
+    letter-spacing: 2px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+    word-spacing: 6px;
+    font-family: STHeiti Light;
+    font-weight: bold;
+}
+
+.intro-content > p {
+    color: #fff;
+    font-size: 24px;
+    letter-spacing: 3px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+    font-family: STHeiti Light;
+}
+
+.btn-welcome {
+  color: #f4511e;
+  font-size: 22px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #FFF;
+  padding: 10px 80px;
+  border-radius: 35px;
+  letter-spacing: 3px;
+  background-color: #FFF;
+}
+
+.btn.btn-welcome:hover{
+    border-color: #FFF;
+    color: #15AB5F;
+}
+
+/*===== end 网站头贴 ====*/
+
+
+/*===== 服务优势 ====*/
+.what-we-do{
+  text-align: center;
+  background-image: url('http://ww4.sinaimg.cn/large/006tNbRwgy1ff1mhk1998j31kw0ukwh5.jpg');
+  background-size: cover;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.service p{
+    color: #666;
+    letter-spacing: 2px;
+}
+
+.service p-2{
+    color: #f4511e;
+}
+
+.what-we-do .do-box{
+    img{
+      margin-top: 35px;
+      margin-bottom: -35px;
+      width: 180px;
+    }
+}
+
+.do-box h3{
+    color: #f4511e;
+    margin-top: 65px;
+    margin-bottom: 8px;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+.do-box p {
+    color: #666;
+    letter-spacing: 1px;
+    line-height: 22px;
+    margin: 25px 20px 40px 20px;
+}
+
+/*===== 服务优势 ====*/
+
+
+/*===== level ====*/
+.level{
+    background-color: #f4511e;
+    margin-left: -15px;
+    margin-right: -15px;
+
+    a{
+      text-decoration:none;
+      color: #fff;
+    }
+    p{
+      margin-top: -35px;
+      margin-bottom: 40px;
+      color: #fff;
+    }
+}
+
+.level .level-box{
+    text-align: center;
+    margin-top: 45px;
+    img {
+        width: 240px;
+        margin: -15px 20px 5px 20px;
+    }
+}
+
+.level .category-list{
+  text-align: center;
+  h3{
+      color: #FFF;
+      margin-top: 15px;
+      margin-bottom: 8px;
+      font-size: 16px;
+      letter-spacing: 1px;
+  }
+}
+
+.level .category-list:hover{
+  h3{
+    color: #FA9181;
+  }
+}
+/*===== end level ====*/
+
+/*====== 岗位资源 ======*/
+
+.source{
+  background-image: url('http://ww4.sinaimg.cn/large/006tNbRwgy1ff1mhk1998j31kw0ukwh5.jpg');
+  background-size: cover;
+  padding-bottom: 200px;
+  padding-top: 120px;
+  margin-left: -15px;
+  margin-right: -15px;
+
+  img{
+    margin: -25px 15px;
+    width: 150px;
+  }
+
+  p{
+    margin-top: -15px;
+    margin-bottom: 40px;
+    color: #f4511e;
+  }
+}
+/*====== 岗位资源 ======*/
+
+/*===== 我在这里告诉你 ====*/
+.talk-about-us{
+    background-color: #f4511e;
+    padding-bottom: 150px;
+    padding-top: 100px;
+    margin-left: -15px;
+    margin-right: -15px;
+
+    p-x{
+      color: #fff;
+      //margin-top: -100px;
+    }
+
+    p{
+      color: #fff;
+      letter-spacing: 1px;
+      line-height: 22px;
+      margin: -10px 20px -20px 10px;
+      padding: 10px;
+    }
+}
+
+.carousel-caption {
+  padding: 0;
+  margin: 2px -120px 10px 0;
+}
+
+.carousel-control {
+  text-shadow: 0 0 0 #999;
+  width: 0;
+  height: 0;
+}
+.carousel-control span:hover {
+  color: #2dbe60;
+}
+#myCarousel {
+  margin: 20px auto 20px auto;
+  width: 100%;
+
+}
+.carousel-inner img {
+  max-height: 300px;
+  width: 180px;
+}
+.carousel-indicators li {
+  background-color: #fa9e81;
+  border: none;
+}
+.carousel-indicators .active {
+  background-color: #e8e8e8;
+}
+.carousel-indicators {
+  bottom: -55px;
+}
+#myCarousel .left span {
+  position: relative;
+  top: 30px;
+  left: -50px;
+  color: #e8e8e8;
+  font-size: 7rem;
+}
+#myCarousel .right span {
+  position: relative;
+  top: 30px;
+  right: -20px;
+  color: #e8e8e8;
+  font-size: 7rem;
+}
+
+/*===== end 我在这里告诉你 ====*/
+
+
+/*===== team ====*/
+
+.team{
+  background-image: url('http://ww3.sinaimg.cn/large/006tNbRwgy1ff2p7jvgp3j31kw0mgju1.jpg');
+  background-size: cover;
+  padding-left: 50px;
+  padding-right: 50px;
+  background-position: center;
+  text-align: center;
+}
+/*===== end team ====*/
